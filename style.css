@@ -68,9 +68,6 @@ h2 {
 	top: 12.5rem;
 }
 .cardtext {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	color: #e8e8e8;
 	margin-top: 1rem;
 	margin-left: 1.5rem;
