@@ -43,9 +43,10 @@ a {
 	border-radius: 3px;
 }
 .content {
-	align-items: center;
+	display: flex;
 	justify-content: center;
-	text-align: center;
+	align-items: center;
+	flex-direction: column;
 	margin-top: 1rem;
 	color: #e8e8e8;
 }
@@ -76,9 +77,6 @@ h2 {
 	width: 38rem;
 	height: auto;
 	border-radius: 1rem;
-	position: sticky;
-	right: 40rem;
-	left: 41rem;
 	top: 11rem;
 	border: 2px solid #15202d;
 }
@@ -90,4 +88,7 @@ h2 {
 	line-height: 1.4rem;
 	margin-bottom: 1rem;
 }
-/*	colors: #1e2e42	#15202d*/
+.socialtitle {
+
+}
+/*	colors: #1e2e42	#15202d #e8e8e8*/
