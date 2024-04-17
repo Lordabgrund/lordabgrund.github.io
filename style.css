@@ -76,7 +76,7 @@ h2 {
 	width: 38rem;
 	height: auto;
 	border-radius: 1rem;
-	position: absolute;
+	position: sticky;
 	right: 40rem;
 	left: 41rem;
 	top: 11rem;
@@ -90,4 +90,4 @@ h2 {
 	line-height: 1.4rem;
 	margin-bottom: 1rem;
 }
-/*	colors: #1e2e42	#15202d */
+/*	colors: #1e2e42	#15202d*/
