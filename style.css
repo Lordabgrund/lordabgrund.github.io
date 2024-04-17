@@ -20,8 +20,9 @@ body {
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	margin-top: -1rem;
+	margin-top: -1.5rem;
 	margin-bottom: 0.25rem;
+	margin-left: 4.5rem;
 }
 
 a {
@@ -39,6 +40,7 @@ a {
 	border: 5px solid #00591f;
 	margin-left: 15px;
 	margin-right: 15px;
+	border-radius: 3px;
 }
 .content {
 	align-items: center;
@@ -54,8 +56,9 @@ h2 {
 	text-decoration-thickness: 0.09rem;
 }
 .imglinks {
-	margin-top: 2.5rem;
+	margin-top: 1.5rem;
 	margin-left: 4.4rem;
+	margin-bottom: 1.5rem;
 }
 .cardbackground {
 	background-color: #354872;
@@ -66,6 +69,18 @@ h2 {
 	right: 40rem;
 	left: 40rem;
 	top: 11rem;
+	border: 1px solid #15202d;
+}
+.cardbackground2 {
+	background-color: #1e2e42;
+	width: 38rem;
+	height: auto;
+	border-radius: 1rem;
+	position: absolute;
+	right: 40rem;
+	left: 41rem;
+	top: 11rem;
+	border: 2px solid #15202d;
 }
 .cardtext {
 	color: #e8e8e8;
@@ -75,3 +90,4 @@ h2 {
 	line-height: 1.4rem;
 	margin-bottom: 1rem;
 }
+/*	colors: #1e2e42	#15202d*/
