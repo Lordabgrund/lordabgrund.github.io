@@ -60,12 +60,12 @@ h2 {
 .cardbackground {
 	background-color: #354872;
 	width: 40rem;
-	height: 20rem;
+	height: auto;
 	border-radius: 1rem;
 	position: absolute;
 	right: 40rem;
 	left: 40rem;
-	top: 12.5rem;
+	top: 11rem;
 }
 .cardtext {
 	color: #e8e8e8;
@@ -73,4 +73,5 @@ h2 {
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
 	line-height: 1.4rem;
+	margin-bottom: 1rem;
 }
