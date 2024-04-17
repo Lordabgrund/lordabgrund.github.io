@@ -14,7 +14,7 @@ body {
 }
 .logo {
 	text-align: left;
-	text-decoration: white;
+	color: #e8e8e8;
 }
 .links {
 	justify-content: center;
@@ -26,7 +26,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: white;
+	color: #e8e8e8;
 	margin-right: 80px;
 
 }
@@ -45,5 +45,35 @@ a {
 	justify-content: center;
 	text-align: center;
 	margin-top: 1rem;
-	text-decoration: white;
+	color: white;
+}
+h2 {
+	font-size: 2.15rem;
+	margin-bottom: 1rem;
+	text-decoration: underline;
+	text-decoration-thickness: 0.09rem;
+}
+.imglinks {
+	margin-top: 2.5rem;
+	margin-left: 4.4rem;
+}
+.cardbackground {
+	background-color: #354872;
+	width: 40rem;
+	height: 20rem;
+	border-radius: 1rem;
+	position: absolute;
+	right: 40rem;
+	left: 40rem;
+	top: 12.5rem;
+}
+.cardtext {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #e8e8e8;
+	margin-top: 1rem;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	line-height: 1.4rem;
 }
