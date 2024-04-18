@@ -23,13 +23,12 @@ body {
 	margin-top: -1.5rem;
 	margin-bottom: 0.25rem;
 	margin-left: 4.5rem;
+	
 }
-
 a {
 	text-decoration: none;
 	color: #e8e8e8;
 	margin-right: 80px;
-
 }
 
 .header {
@@ -62,26 +61,23 @@ h2 {
 	margin-bottom: 1.5rem;
 }
 .cardbackground {
-	background-color: #354872;
-	width: 40rem;
-	height: auto;
-	border-radius: 1rem;
-	position: absolute;
-	right: 40rem;
-	left: 40rem;
-	top: 11rem;
-	border: 1px solid #15202d;
-}
-.cardbackground2 {
-	background-color: #1e2e42;
-	width: 38rem;
+	background-color: #203147;
+	width: auto;
+	max-width: 40rem;
 	height: auto;
 	border-radius: 1rem;
 	top: 11rem;
 	border: 2px solid #15202d;
 }
+.cardbackground2 {
+	background-color: #1e2e42;
+	width: auto;
+	max-width: 38rem;
+	height: auto;
+	border-radius: 1rem;
+	border: 2px solid #15202d;
+}
 .cardtext {
-	color: #e8e8e8;
 	margin-top: 1rem;
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
@@ -91,4 +87,20 @@ h2 {
 .socialtitle {
 
 }
-/*	colors: #1e2e42	#15202d #e8e8e8*/
+a:hover { text-shadow: 0 0 5px #e8e8e8; }
+
+
+/*	colors: #1e2e42 #15202d #e8e8e8 #354872 #203147 #ff0000*/
+
+
+
+
+/*@keyframes scroll-watcher {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+.moretext {
+	max-width: 20rem;
+	animation: scroll-watcher linear;
+	animation-timeline: scroll();
+}*/
