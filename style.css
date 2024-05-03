@@ -5,12 +5,14 @@
 
 html {
 	height: 100%;
+
 }
 
 body {
 	background-color: #1e293b;
 	font-family: sans-serif;
 	min-height: 100%;
+
 }
 .logo {
 	text-align: left;
@@ -87,20 +89,51 @@ h2 {
 .socialtitle {
 
 }
-a:hover { text-shadow: 0 0 5px #e8e8e8; }
+a:hover { 
+	transition: all 0.5s ease;
 
-
+	color: white;
+	/* text-shadow: 0 0 5px #e8e8e8; */
+}
+.btn {
+  background-color: #1b293b;
+  border: none;
+  color: #e8e8e8;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 2s;
+}
+.btn:hover {
+  color: black;
+}
+.logo-slider {
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+	background-color: #354872;
+	overflow-x: hidden;
+	
+}
+.imgheight {
+	max-height: 80px;
+	min-width: 160px;
+	animation: logo-sliding 5s linear infinite;
+}
+@keyframes logo-sliding {
+	0% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(-400%);
+	}
+}
+.logo-slider::before {
+	display: block;
+	width: 15%
+	background-color: yellow;
+}
 /*	colors: #1e2e42 #15202d #e8e8e8 #354872 #203147 #ff0000*/
 
-
-
-
-/*@keyframes scroll-watcher {
-	from { opacity: 0; }
-	to { opacity: 1; }
-}
-.moretext {
-	max-width: 20rem;
-	animation: scroll-watcher linear;
-	animation-timeline: scroll();
-}*/
